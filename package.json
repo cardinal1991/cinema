@@ -1,6 +1,9 @@
 {
   "name": "my-project",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.16.0"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -25,7 +28,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://localhost:5000", 
+  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -37,9 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": "10.16.0"
-}
-  
+  }
 }
